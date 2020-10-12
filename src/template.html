@@ -29,7 +29,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <script src="https://unpkg.com/scrollreveal"></script>
   <script>
-    ScrollReveal({ reset: false });
+    ScrollReveal({
+      reset: false
+    });
   </script>
 
   <!-- Remove this script once you setup your custom portfolio -->
@@ -72,27 +74,28 @@
         <div class="col-md-6 col-sm-12">
           <div class="about-wrapper__info">
             <p class="about-wrapper__info-text">
-              Software developer with a lot of motivation. <br>I began to acquire knowledge in the world of Software from
+              Software developer with a lot of motivation. <br>I began to acquire knowledge in the world of Software
+              from
               an early age as a Self-learner.
               <br> I have experience with lots of programming languages but always keeps the hunger to learn more.
-<!--&lt;!&ndash;              Currently pursuing my M.Sc in computer science at "The Open University of Israel"-->
- <br> Currently seeking my next challenge
+              <!--&lt;!&ndash;              Currently pursuing my M.Sc in computer science at "The Open University of Israel"-->
+              <br> Currently seeking my next challenge
             </p>
             <p class="about-wrapper__info-text">
-<!--              In the last 3 years, I pursued my computer science degree, where I gained-->
-<!--              experience by learning advanced programming skills and building new projects.-->
+              <!--              In the last 3 years, I pursued my computer science degree, where I gained-->
+              <!--              experience by learning advanced programming skills and building new projects.-->
             </p>
             <span class="d-flex mt-3">
- <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.linkedin.com/in/eliran-amzalag/">
-                View Linkedin 
+              <a target="_blank" class="cta-btn cta-btn--resume" href="https://www.linkedin.com/in/eliran-amzalag/">
+                View Linkedin
               </a>
-              
+
 
 
               <!-- <a target="_blank" class="cta-btn cta-btn--resume" href="https://drive.google.com/file/d/1QKuEaYwVYd8kDhXXZAyL7hvuP0FtDrNJ/view?usp=sharing">
                 View Resume
               </a> -->
-<!-- 
+              <!-- 
               <a href="https://www.linkedin.com/in/eliran-amzalag/" target="_blank">
                <i class="fa fa-linkedin fa-inverse"></i>  View Linkedin
               </a> -->
@@ -114,59 +117,95 @@
 
         <!-- Each .row is a project -->
 
-
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Face detection web app</h3>
-                <div>
-                  <p class="mb-4">
-                    A React full-stack face detection app.
-                    Just supply a picture link with faces and the app will present the face edges.
-                   This app uses two Heroku servers one for the frontend, and the other as restful API that connects to a PostgreSQL database.
-                   The app connects to clarifai with API key and query and receives the results.
-                   
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero"
-                  href="http://image-face-detect.herokuapp.com/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/FaceDetect-FrontEnd">
-                  Source Code
-                </a>
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Netflix clone</h3>
+              <div>
+                <p class="mb-4">
+                  ReactJS single page application with firebase backend and youtube API. This app is a Netflix clone,
+                  with access to youtube, components were build using 'styled-components'.
+                  Only authorized users can access the browse page. tests were done with react-jest.
+                </p>
               </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="#!" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/brain2.jpg" />
-                  </div>
-                </a>
-              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="https://netflix-youtube.netlify.app/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/netflix-youtube">
+                Source Code
+              </a>
             </div>
           </div>
-          <!-- /END Project -->
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid"
+                    src="https://cdn.vox-cdn.com/thumbor/QuS2QKQys3HhosKiV-2IuKhphbo=/39x0:3111x2048/1400x1050/filters:focal(39x0:3111x2048):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
 
-          
+
+        <!-- Each .row is a project -->
+        <div class="row">
+          <div class="col-lg-4 col-sm-12">
+            <div class="project-wrapper__text">
+              <h3 class="project-wrapper__text-title">Face detection web app</h3>
+              <div>
+                <p class="mb-4">
+                  A React full-stack face detection app.
+                  Just supply a picture link with faces and the app will present the face edges.
+                  This app uses two Heroku servers one for the frontend, and the other as restful API that connects to a
+                  PostgreSQL database.
+                  The app connects to clarifai with API key and query and receives the results.
+
+                </p>
+              </div>
+              <a target="_blank" class="cta-btn cta-btn--hero" href="http://image-face-detect.herokuapp.com/">
+                See Live
+              </a>
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/FaceDetect-FrontEnd">
+                Source Code
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8 col-sm-12">
+            <div class="project-wrapper__image">
+              <a href="#!" target="_blank">
+                <div data-tilt class="thumbnail rounded">
+                  <img class="img-fluid" src="./assets/brain2.jpg" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- /END Project -->
+
+
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Image Inpainting</h3>
               <div>
                 <p class="mb-4">
-                  An Image inpainting Deep Learning models that generate new data to complete images, 
+                  An Image inpainting Deep Learning models that generate new data to complete images,
                   built via PyTorch environment.
-                
+
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="https://www.youtube.com/watch?v=wk2GCE3-gdw&feature=youtu.be">
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://www.youtube.com/watch?v=wk2GCE3-gdw&feature=youtu.be">
                 See Live
               </a>
-              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/Image-Inpainting-with-Deep-Learning-">
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/Image-Inpainting-with-Deep-Learning-">
                 Source Code
               </a>
             </div>
@@ -184,8 +223,8 @@
         <!-- /END Project -->
 
 
-         <!-- Each .row is a project -->
-         <div class="row">
+        <!-- Each .row is a project -->
+        <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Checkers React App</h3>
@@ -194,13 +233,15 @@
                   A frontend Web app Checkers game.
                   The game allows two modes 2 players or 1 vs computer.
                   Single page application developed with create-react-app.
-                  
+
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="https://wantedhorizon.github.io/checkers-online-game/">
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="https://wantedhorizon.github.io/checkers-online-game/">
                 See Live
               </a>
-              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/checkers-online-game">
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/checkers-online-game">
                 Source Code
               </a>
             </div>
@@ -252,8 +293,8 @@
         <!-- /END Project -->
 
 
-         <!-- Each .row is a project -->
-         <div class="row">
+        <!-- Each .row is a project -->
+        <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Laravel store mangement</h3>
@@ -261,13 +302,15 @@
                 <p class="mb-4">
                   A full-stack Web app built via Laravel and MySQL database.
                   There are 3 live tables with many to many connections.
-                  
+
                 </p>
               </div>
-              <a target="_blank" class="cta-btn cta-btn--hero" href="http://laravel-live-store-management.herokuapp.com/">
+              <a target="_blank" class="cta-btn cta-btn--hero"
+                href="http://laravel-live-store-management.herokuapp.com/">
                 See Live
               </a>
-              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/laravel-live-store-management">
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/laravel-live-store-management">
                 Source Code
               </a>
             </div>
@@ -291,9 +334,10 @@
               <div>
                 <p class="mb-4">
                   A frontend Web app that presents weekly or daily weather forecasts at multiple favorite locations.
-                  An Angular single page application that detects user current geographic location and displays the forecast.
+                  An Angular single page application that detects user current geographic location and displays the
+                  forecast.
                   The system connects to Open Weather API for receiving updated information.
-                  
+
                 </p>
               </div>
               <a target="_blank" class="cta-btn cta-btn--hero" href="https://eliranweather.firebaseapp.com/home">
@@ -325,14 +369,17 @@
               <h3 class="project-wrapper__text-title">Gps & wifi Analysis</h3>
               <div>
                 <p class="mb-4">
-                  The goal of this project is to develop a complex system that enables the collection of geographic information, the production of insights From this information and displays the information in graphical tools.
+                  The goal of this project is to develop a complex system that enables the collection of geographic
+                  information, the production of insights From this information and displays the information in
+                  graphical tools.
                   This project consists of Java code classes.
                 </p>
               </div>
               <!-- <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                 See Live
               </a> -->
-              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/GPS-and-WiFi-Analysis">
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/GPS-and-WiFi-Analysis">
                 Source Code
               </a>
             </div>
@@ -349,19 +396,21 @@
         </div>
         <!-- /END Project -->
 
-         <!-- Each .row is a project -->
-         <div class="row">
+        <!-- Each .row is a project -->
+        <div class="row">
           <div class="col-lg-4 col-sm-12">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Teacher Connection </h3>
               <div>
                 <p class="mb-4">
-                  Android app that enables easy scheduling of private tuition, Built via Android Studio (Java) and Firebase
-           
+                  Android app that enables easy scheduling of private tuition, Built via Android Studio (Java) and
+                  Firebase
+
                 </p>
               </div>
-             
-              <a target="_blank" class="cta-btn text-color-main" href="https://github.com/wantedHorizon/TeacherConnection">
+
+              <a target="_blank" class="cta-btn text-color-main"
+                href="https://github.com/wantedHorizon/TeacherConnection">
                 Source Code
               </a>
             </div>
@@ -392,9 +441,10 @@
       </h2>
       <div class="contact-wrapper">
         <p class="contact-wrapper__text">
-         Mail:
+          Mail:
         </p>
-        <a target="_blank" class="cta-btn cta-btn--resume" href="mailto:eliran.amzalag@hotmail.com">eliran.amzalag@hotmail.com</a>
+        <a target="_blank" class="cta-btn cta-btn--resume"
+          href="mailto:eliran.amzalag@hotmail.com">eliran.amzalag@hotmail.com</a>
       </div>
     </div>
   </section>
@@ -425,11 +475,11 @@
 
       <!-- If you give me some credit, will be huge for me :) -->
       <p class="footer__text">
-        © 2020 -  <a href="https://github.com/covidev" target="_blank">Eliran Amzalag</a>
+        © 2020 - <a href="https://github.com/covidev" target="_blank">Eliran Amzalag</a>
         </a>
       </p>
 
-     
+
       </p>
     </div>
   </footer>
